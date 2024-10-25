@@ -1,0 +1,289 @@
+@import url(https://db.onlinewebfonts.com/c/c99c1c85532dbaf7bc549b3d45836ee6?family=Ahkio+W00+Regular);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ahkio W00 Regular";
+  /* background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/423221555_917645847036311_5264040073845773924_n.png?stp=dst-png_s640x640&_nc_cat=105&ccb=1-7&_nc_sid=510075&_nc_eui2=AeGrGrnxpk8g_fzFsAQM7oZKyJ31HAYY1gbInfUcBhjWBi73rkSDbc9UT1N3Fs4xJcPyOPSgntNlKKODdlZeBgxA&_nc_ohc=Y9ZgM0Mcc4gAX8IrO6D&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQhQIUp3bMNzXmTrEgkJi0sottamML3Qwho_2-1GDJNwg&oe=65F7E40D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center; */
+  background: #d3eaff;
+}
+/* HEADER */
+.header {
+  background: #62a0d8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  border-bottom: 1px solid black;
+}
+/* LOGO AND H3 HEADING */
+div.logo {
+  position: relative;
+  left: 10%;
+}
+.logo img {
+  margin-left: 13px;
+  width: 6.5rem;
+  display: inline-flex;
+  position: fixed;
+  top: 0.5%;
+}
+.logo h3 {
+  margin-left: 13px;
+  display: inline-flex;
+  position: fixed;
+  top: 2.1%;
+  left: 15.1%;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav img {
+  margin-right: 1rem;
+  width: 4.5rem;
+  float: right;
+  text-align: center;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 19px 50px;
+  text-decoration: none;
+  font-size: 21.5px;
+  font-family: "Ahkio-Regular", cursive;
+  cursor: pointer;
+}
+.topnav a:hover {
+  background: #497ba8;
+  padding: 19px 50px;
+  transition: all 0.3s;
+}
+#person_circle {
+  font-size: 75px;
+  margin-top: -30px;
+}
+#person_circle:hover {
+  background: none;
+}
+/* SIDEBAR */
+.sidebar {
+  background: #62a0d8;
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  margin-top: 40px;
+  transform: translateX(-250px);
+  transition: transform 250ms ease-in-out;
+}
+/* PROFILE */
+.profile {
+  text-align: center;
+  padding: 20px;
+}
+.profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  cursor: not-allowed;
+}
+
+/* CONTENT */
+div.content-1 {
+  position: sticky;
+  background: rgb(48, 60, 127);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 60, 127, 1) 7%,
+    rgba(98, 195, 216, 1) 91%
+  );
+  width: 100.3%;
+  height: 55.1rem;
+  position: absolute;
+  top: 4.4rem;
+  left: -0.4rem;
+  border-radius: 5px;
+}
+
+/* CONTAINER 1 */
+div.hero {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.container_1 h1 {
+  line-height: 13rem;
+  font-size: 55px;
+  margin-left: 53px;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+}
+.container_1 a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #497ba8;
+  margin-left: 62px;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bold;
+  font-style: italic;
+}
+/* HORIZONTAL RULE */
+/* AMPANGET TIGNAN */
+/* .hr_3 hr {
+  border-width: 1px;
+  width: 120rem;
+  position: absolute;
+  bottom: 92.5%;
+  left: 0%;
+  border: 1px solid #2B4359;
+} */
+.hr_1 hr {
+  border-width: 1px;
+  width: 170%;
+  position: relative;
+  bottom: -1.3%;
+  left: 8%;
+  border: 1.5px solid #2b4359;
+}
+.hr_2 hr {
+  border-width: 1px;
+  width: 134%;
+  position: relative;
+  bottom: -1.3%;
+  left: 8%;
+  border: 1.5px solid #2b4359;
+}
+
+.hr-faq hr {
+  width: 44%;
+  position: relative;
+  bottom: -2%;
+  left: 57%;
+  border: 3px solid #497ba8;
+  margin-top: -4px;
+}
+
+/* ID */
+#id_1,
+#id_3 {
+  color: black;
+}
+#id_1:hover,
+#id_3:hover {
+  color: #497ba8;
+  transition: all 0.3s;
+}
+/* CONTAINER_2 EDIT EMAIL AND PASSWORD */
+.container_2 {
+  position: relative;
+  left: 10%;
+  top: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.edit_email,.edit_password {
+  display: flex;
+  flex-direction: column;
+}
+.edit_email label {
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bold;
+  line-height: 3em;
+  font-size: 20px;
+  display: block;
+  font-style: italic;
+}
+.edit_email input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  background-color: #d3eaff;
+  border-color: #2b4359;
+  font-family: "Ahkio-Regular", cursive;
+  font-size: 18px;
+}
+.edit_email input:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #2b4359;
+  outline: none;
+  width: 100%;
+}
+/* -------------------- */
+.edit_password label {
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bold;
+  line-height: 3em;
+  font-size: 20px;
+  display: block;
+  font-style: italic;
+}
+.edit_password input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  background-color: #d3eaff;
+  border-color: #2b4359;
+  font-family: "Ahkio-Regular", cursive;
+  font-size: 18px;
+}
+.edit_password input:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #2b4359;
+  outline: none;
+  width: 100%;
+}
+.btn-container button {
+  margin-left: 0rem;
+  margin-top: 1rem;
+  width: 30%;
+  padding: 10px 15px 15px 10px;
+  border: none;
+  font-size: 17px;
+  font-family: "Ahkio-Regular", cursive;
+  cursor: pointer;
+  background-color: #62a0d8;
+  border-radius: 5px;
+}
+.btn-container button:hover {
+  transition: all 0.5s;
+  background-color: #497ba8;
+  color: white;
+}
+
+/* LOGOUT AND PERMANENT DELETE ACCOUNT */
+div.rmv {
+  position: relative;
+  bottom: -2.5rem;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+}
+.rmv a {
+  color: #2b4359;
+  font-size: 24px;
+  line-height: 3rem;
+  transition: all 0.3s;
+}
+.rmv a:hover {
+  transition: all 0.3s;
+  color: black;
+}

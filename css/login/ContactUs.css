@@ -1,0 +1,247 @@
+@import url(https://db.onlinewebfonts.com/c/c99c1c85532dbaf7bc549b3d45836ee6?family=Ahkio+W00+Regular);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ahkio W00 Regular";
+  /* background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/423221555_917645847036311_5264040073845773924_n.png?stp=dst-png_s640x640&_nc_cat=105&ccb=1-7&_nc_sid=510075&_nc_eui2=AeGrGrnxpk8g_fzFsAQM7oZKyJ31HAYY1gbInfUcBhjWBi73rkSDbc9UT1N3Fs4xJcPyOPSgntNlKKODdlZeBgxA&_nc_ohc=Y9ZgM0Mcc4gAX8IrO6D&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQhQIUp3bMNzXmTrEgkJi0sottamML3Qwho_2-1GDJNwg&oe=65F7E40D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center; */
+
+/* HR */
+.hr-contact hr {
+  border-width: 1px;
+  width: 9%;
+  position: absolute;
+  bottom: 0%;
+  right: 9.7%;
+  border: 2px solid black;
+  transition: all 2s;
+}
+}
+/* HEADER */
+.header {
+  background: #62a0d8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+}
+
+/* LOGO AND H3 HEADING */
+div.logo {
+  position: relative;
+  left: 10%;
+}
+.logo img {
+  margin-left: 13px;
+  width: 6.5rem;
+  display: inline-flex;
+  position: fixed;
+  top: 0.5%;
+  cursor: pointer;
+}
+.logo h3 {
+  margin-left: 13px;
+  display: inline-flex;
+  position: fixed;
+  top: 2.1%;
+  left: 15.1%;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 19px 50px;
+  text-decoration: none;
+  font-size: 21.5px;
+  font-family: "Ahkio-Regular", cursive;
+  cursor: pointer;
+}
+.topnav a:hover {
+  background: #497ba8;
+  padding: 19px 50px;
+  transition: all 0.3s;
+}
+#person_circle {
+  font-size: 75px;
+  margin-top: -30px;
+
+}
+#person_circle:hover {
+  background: none;
+}
+
+/* CONTENT */
+div.content-1 {
+    position: sticky;
+    background: rgb(48, 60, 127);
+    background: linear-gradient(
+      90deg,
+      rgba(48, 60, 127, 1) 7%,
+      rgba(98, 195, 216, 1) 91%
+    );
+    width: 100.3%;
+    height: 56.1rem;
+    position: absolute;
+    top: 4.4rem;
+    left: -0.4rem;
+  
+  }
+
+
+/* FORM */
+div.text-form {
+  position: relative;
+  top: 35%;
+  left: 0%;
+  margin-left: 141px;
+  
+ }
+.text-form h2 {
+  font-size:75px;
+}
+.text-form p {
+  margin-top:20px;
+  font-size: 30px;
+  width: 628px;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+}
+
+
+
+div.container-form {
+  position: absolute;
+  left: 60%;
+  bottom: 12%;
+  background: #D3EAFF;
+  width: 25%;
+  height: 75%;
+  border-radius: 21px;
+    
+}
+div.moving-object{
+  margin-left:30px;
+  margin-top:30px;
+  
+  }
+  .moving-object input {
+    border:none;
+    border-radius: 6px;;
+  }
+  .moving-object label {
+    font-style: italic;
+    
+  }
+/* FULL NAME */
+.fullname input {
+ padding: 15px 0 15px 0;
+ font-size:15px;
+ text-align: center;
+font-family: italic;
+}
+.fullname input:focus {
+border: 0.5px solid #62a0d8;
+outline: 0.5px solid #62a0d8;
+}
+#firstname {
+  padding-left:10px;
+}
+.fullname label {
+  font-size:15px;
+  font-weight: bold;
+  font-family: "Ahkio-Regular", cursive;
+
+
+} 
+div.fullname {
+display: flex;
+justify-content: space-between;
+margin-bottom:5px;
+}
+div.fullname .input-group {
+  flex-basis: 50%;
+}
+/*  */
+/* EMAIL_ADDRESS, EDUQUIZ USERNAME AND MESSAGE */
+.input-row label {
+  display:block;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bold;
+  margin-bottom:5px;
+}
+.input-row input {
+  padding: 15px 225px 15px 0px;
+  font-family: italic;
+  font-size:15px;
+}
+.input-row input:focus {
+  border: 0.5px solid #62a0d8;
+outline: 0.5px solid #62a0d8;
+}
+
+div.input-row   {
+  margin-top:30px;
+}
+div.input-group_1 {
+  margin-bottom:30px;
+}
+div.input-group_3{
+  margin-top:30px;
+
+}
+textarea {
+  width:93%;
+  border: none;
+  padding: 50px;
+  border-radius: 6px;
+  font-size:15px; 
+}
+textarea:focus {
+  border: 0.5px solid #62a0d8;
+outline: 0.5px solid #62a0d8;
+}
+/* BUTTON */
+.btn-submit button {
+  color:white;
+  margin-top: 15px;
+  background-color: #2B4359;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 25px 9px 25px;
+  font-size: 17px;
+  font-style: italic;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-submit button:hover{
+opacity: 0.8;
+}
+
+
+.btn-submit button:focus{
+  transition: all 0.3s;
+  color:black;
+  background: transparent;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+

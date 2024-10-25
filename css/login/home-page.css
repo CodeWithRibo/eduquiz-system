@@ -1,0 +1,470 @@
+@import url(https://db.onlinewebfonts.com/c/c99c1c85532dbaf7bc549b3d45836ee6?family=Ahkio+W00+Regular);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: auto;
+  font-family: "Ahkio W00 Regular";
+  background: #d3eaff;
+  scroll-behavior: smooth;
+}
+/* HEADER */
+.header {
+  background: #62a0d8;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  border-bottom: 1px solid black;
+}
+/* LOGO AND H3 HEADING */
+div.logo {
+  position: absolute;
+  left: 10%;
+  z-index: 12;
+}
+.logo img {
+  margin-left: 13px;
+  width: 6.5rem;
+  top: 0.5%;
+}
+.logo h3 {
+  margin-left: 13px;
+  position: relative;
+  bottom: 3.5rem;
+  left: 6rem;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav img {
+  margin-right: 1rem;
+  width: 4.5rem;
+  float: right;
+  text-align: center;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 19px 50px;
+  text-decoration: none;
+  font-size: 21.5px;
+  font-family: "Ahkio-Regular", cursive;
+  cursor: pointer;
+}
+.topnav a:hover {
+  background: #497ba8;
+  padding: 19px 50px;
+  transition: all 0.3s;
+}
+#person_circle {
+  font-size: 75px;
+  margin-top: -30px;
+}
+#person_circle:hover {
+  background: none;
+}
+
+/* CONTENT-1 */
+div.content-1 {
+  height: 200px;
+  background: rgb(48, 60, 127);
+  background: linear-gradient(90deg, rgba(48, 60, 127, 1) 7%, rgba(98, 195, 216, 1) 91%);
+  width: 88.5%;
+  height: 20rem;
+  position: absolute;
+  top: 5.5rem;
+  left: 7.2rem;
+  border-radius: 15px;
+}
+
+.intro p {
+  font-family: "Ahkio-Regular", cursive;
+  font-size: 25px;
+}
+.intro h1 {
+  font-size: 46px;
+  width: 725px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+div.intro {
+  position: relative;
+  top: 8%;
+  margin-left: 70px;
+  letter-spacing: 2px;
+}
+.search-bar input {
+  width: 60%;
+  padding: 11px 27px 11px;
+  border-radius: 7px;
+  border: none;
+  text-align: start;
+  font-size: 19px;
+  font-family: "Ahkio-Regular", cursive;
+  position: absolute;
+  left: 19%;
+  bottom: 3.5rem;
+  font-style: italic;
+  /* ICON */
+  padding-left: 40px;
+  background: url("https://static.thenounproject.com/png/101791-200.png")
+    no-repeat left;
+  background-size: 30px;
+  background-color: white;
+}
+.search-bar input:focus {
+  border: 1px solid #62a0d8;
+  outline: 1px solid #62a0d8;
+}
+.search-bar input:hover {
+  border: 1px solid #62a0d8;
+  outline: 1px solid #62a0d8;
+}
+/* ---------------- */
+.parent-adobe {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: absolute;
+  left: 6%;
+  top: 45%;
+  gap: 3.5rem;
+}
+
+.child-adobe {
+  border: 2px solid black;
+  width: 55rem;
+  height: 28.4rem;
+}
+
+.adobe-img img {
+  width: 450px;
+  height: 450px;
+}
+.adobe-text {
+  position: relative;
+  bottom: 5rem;
+  left: 4.1rem;
+}
+.adobe-text,
+.adobe-img {
+  display: inline-block;
+}
+.span_h2-1 h2 {
+  font-style: italic;
+  font-family: "Ahkio-Regular";
+  font-weight: bold;
+  width: 231px;
+  font-size: 31px;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+.span_p-1 p {
+  font-family: "Ahkio-Regular", cursive;
+  font-size: 20px;
+}
+.span_h3-1 h3 {
+  width: 259px;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: lighter;
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 17px;
+}
+.span_btn-1 button {
+  padding: 11px 18px 11px 18px;
+  border: none;
+  background-color: #497ba8;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bolder;
+  font-style: italic;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.span_btn-1 button:hover {
+  transition: all 0.5s;
+  color: white;
+}
+#ion-1 {
+  font-size: 20px;
+  margin-bottom: -6px;
+  margin-left: 2px;
+}
+/* MORE QUIZ BUTTON */
+.btn-morequiz {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.3rem;
+  margin-right: 33rem;
+}
+.btn-morequiz button {
+  padding: 11px 18px 11px 18px;
+  border: none;
+  background-color: #497ba8;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bolder;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn-morequiz button:hover {
+  transition: all 0.5s;
+  color: white;
+}
+/* PARENT ADOBE 2 */
+/* ------------------INTRODUCTION---------------- */
+.parent-adobe-2 {
+  position: absolute;
+  left: 61%;
+  top: 45%;
+  text-align: start;
+  background: #9ac5eb;
+  width: 640px;
+  height: 99rem;
+}
+.child-adobe-2 {
+  position: relative;
+  left: 14%;
+  top: 3%;
+}
+.child-adobe-text_2 h1 {
+  font-size: 31px;
+  line-height: 3.3rem;
+  font-weight: bolder;
+  font-style: italic;
+  width: 370px;
+}
+.child-adobe-img_2 img {
+  width: 450px;
+  margin-top: -4.5rem;
+}
+.child-adobe-lorem p {
+  font-size: 20px;
+  width: 28rem;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+  margin-top: -3rem;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+/* -------------ABOUT-------------------- */
+.child-adobe-3 {
+  position: relative;
+  top: 5%;
+  left: 13%;
+}
+.child-adobe_h1 h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 9px;
+}
+.child-adobe_p p {
+  font-size: 20px;
+  width: 28rem;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-align: justify;
+  margin-bottom: 2.1rem;
+}
+.read-more a {
+  color: black;
+  font-size: 25px;
+  transition: all 0.5s;
+
+}
+.read-more a:hover {
+  color: white;
+  transition: all 0.5s;
+}
+/* ------------CONTACT US FORM----------------- */
+.contactus-form {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9ac5eb;
+  position: relative;
+  top: 9rem;
+  left: -7.5rem;
+  width: 134.4%;
+  height: 60.5rem;
+}
+.contactus-h1 h1 {
+  width: 59%;
+  font-size: 50px;
+  margin-bottom: 7rem;
+}
+form {
+  position: relative;
+  bottom: 5%;
+  left: 5%;
+}
+/* --------LABEL FULLNAME-------------------- */
+.label-fullname {
+  display: flex;
+  justify-content: space-evenly;
+}
+.label-fullname label {
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30.4px;
+}
+#label_firstname,
+#label_lastname {
+  margin-right: 16.5rem;
+}
+/* ---------------------------- */
+/*----------INPUT FULLNAME-------------- */
+.input-fullname {
+  display: flex;
+  justify-content: space-evenly;
+}
+.input-fullname input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #9ac5eb;
+  border-bottom: 2px solid black;
+  width: 45%;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  font-size: 17.4px;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+}
+.input-fullname input:hover {
+  border-bottom: 2px solid #62a0d8;
+  transition: all 0.5s;
+}
+.input-fullname input:focus {
+  border-bottom: 2px solid;
+  outline: none;
+  border-bottom: 2px solid #62a0d8;
+}
+/* ---------------------------- */
+
+/*----------EMAIL_ADDRESS-------------- */
+.label-email_address label {
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30.4px;
+  margin-bottom: 10px;
+}
+.email_address input {
+  margin-bottom: 3rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #9ac5eb;
+  border-bottom: 2px solid black;
+  width: 95%;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  font-size: 17.4px;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+}
+.email_address input:hover {
+  border-bottom: 2px solid #62a0d8;
+  transition: all 0.5s;
+}
+.email_address input:focus {
+  border-bottom: 2px solid;
+  outline: none;
+  border-bottom: 2px solid #62a0d8;
+}
+/* ---------------------------- */
+/*----------MESSAGE-------------- */
+.label-message label {
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30.4px;
+}
+.message textarea {
+  resize: none;
+  box-sizing: border-box;
+  font-size: 17.4px;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+  width: 95%;
+  height: 68px;
+  padding: 21px 20px;
+  border-radius: 4px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  background-color: #9ac5eb;
+}
+.message textarea:focus {
+  border-bottom: 2px solid;
+  outline: none;
+  border-bottom: 2px solid #62a0d8;
+}
+.message textarea:hover {
+  border-bottom: 2px solid #62a0d8;
+  transition: all 0.5s;
+}
+/* ---------------------------- */
+/* -----------SUBMIT BUTTON----------- */
+.btn-submit button {
+  padding: 11px 40px 11px 40px;
+  border: none;
+  background-color: #497ba8;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bolder;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 3rem;
+}
+.btn-submit button:hover {
+  transition: all 0.5s;
+  color: white;
+}
+/* ------------------------------------ */
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #62a0d8;
+  color: black;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  text-decoration: underline;
+  transition: all 0.3s;
+  color: white;
+}

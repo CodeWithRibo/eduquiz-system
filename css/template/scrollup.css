@@ -1,0 +1,19 @@
+.scroll-up a {
+    position: absolute;
+    left: 97%;
+    top: 96%;
+    font-size: 25px;
+    background: linear-gradient(
+      90deg,
+      rgba(48, 60, 127, 1) 7%,
+      rgba(98, 195, 216, 1) 91%
+    );
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .scroll-up a:hover {
+    background: linear-gradient(90deg, rgba(48, 60, 127, 1) 7%, #62a0d8 80%);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  

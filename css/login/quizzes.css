@@ -1,0 +1,186 @@
+@import url(https://db.onlinewebfonts.com/c/c99c1c85532dbaf7bc549b3d45836ee6?family=Ahkio+W00+Regular);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ahkio W00 Regular";
+  /* background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/423221555_917645847036311_5264040073845773924_n.png?stp=dst-png_s640x640&_nc_cat=105&ccb=1-7&_nc_sid=510075&_nc_eui2=AeGrGrnxpk8g_fzFsAQM7oZKyJ31HAYY1gbInfUcBhjWBi73rkSDbc9UT1N3Fs4xJcPyOPSgntNlKKODdlZeBgxA&_nc_ohc=Y9ZgM0Mcc4gAX8IrO6D&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQhQIUp3bMNzXmTrEgkJi0sottamML3Qwho_2-1GDJNwg&oe=65F7E40D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center; */
+  background: #d3eaff;
+  scroll-behavior: smooth;
+}
+/* HR */
+
+.hr-contact hr {
+  border-width: 1px;
+  width: 9%;
+  position: absolute;
+  bottom: 0%;
+  right: 28.5%;
+  border: 2px solid black;
+  transition: all 2s;
+}
+/* HEADER */
+.header {
+  background: #62a0d8;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  border-bottom: 1px solid black;
+}
+/* LOGO AND H3 HEADING */
+div.logo {
+  position: absolute;
+  left: 10%;
+}
+.logo img {
+  margin-left: 13px;
+  width: 6.5rem;
+  top: 0.5%;
+}
+.logo h3 {
+  margin-left: 13px;
+  position: relative;
+  bottom: 3.5rem;
+  left: 6rem;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 19px 50px;
+  text-decoration: none;
+  font-size: 21.5px;
+  font-family: "Ahkio-Regular", cursive;
+  cursor: pointer;
+}
+.topnav img {
+  margin-right: 1rem;
+  width: 4.5rem;
+  float: right;
+  text-align: center;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+.topnav a:hover {
+  background: #497ba8;
+  padding: 19px 50px;
+  transition: all 0.3s;
+}
+#person_circle {
+  font-size: 75px;
+  margin-top: -30px;
+}
+#person_circle:hover {
+  background: none;
+}
+.search-bar input {
+  width: 35%;
+  padding: 11px 27px 11px;
+  border-radius: 10px;
+  border: none;
+  text-align: start;
+  font-size: 19px;
+  font-family: "Ahkio-Regular", cursive;
+  position: absolute;
+  left: 3%;
+  bottom: auto;
+  top: 13%;
+  font-style: italic;
+  /* ICON */
+  padding-left: 40px;
+  background: url("https://static.thenounproject.com/png/101791-200.png")
+    no-repeat left;
+  background-size: 30px;
+  background-color: white;
+  z-index: 12;
+}
+.search-bar input:focus {
+  border: 1px solid #62a0d8;
+  outline: 1px solid #62a0d8;
+}
+.search-bar input:hover {
+  border: 1px solid #62a0d8;
+  outline: 1px solid #62a0d8;
+}
+
+/* ------------------------------ADOBE */
+
+.parent-adobe {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: start;
+  position: absolute;
+ top: 30%;
+ left: 3%;
+  gap: 3.5rem;
+}
+.child-adobe {
+  border: 2px solid black;
+  width: 55rem;
+  height: 28.4rem;
+}
+.adobe-img img {
+  width: 450px;
+  height: 450px;
+}
+.adobe-text {
+  position: relative;
+  bottom: 5rem;
+  left: 4.1rem;
+}
+.adobe-text,
+.adobe-img {
+  display: inline-block;
+}
+.span_h2-1 h2 {
+  font-style: italic;
+  font-family: "Ahkio-Regular";
+  font-weight: bold;
+  width: 231px;
+  font-size: 31px;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+.span_p-1 p {
+  font-family: "Ahkio-Regular", cursive;
+  font-size: 20px;
+}
+.span_h3-1 h3 {
+  width: 244px;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: lighter;
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 17px;
+}
+.span_btn-1 button {
+  padding: 11px 18px 11px 18px;
+  border: none;
+  background-color: #497ba8;
+  font-family: "Ahkio-Regular", cursive;
+  font-weight: bolder;
+  font-style: italic;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.span_btn-1 button:hover {
+  transition: all 0.5s;
+  color: white;
+}
+#ion-1 {
+  font-size: 20px;
+  margin-bottom: -6px;
+  margin-left: 2px;
+}

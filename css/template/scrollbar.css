@@ -1,0 +1,16 @@
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: linear-gradient(
+      90deg,
+      rgba(48, 60, 127, 1) 7%,
+      rgba(98, 195, 216, 1) 91%
+    );
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, rgba(48, 60, 127, 1) 7%, #62a0d8 80%);
+  }
+  

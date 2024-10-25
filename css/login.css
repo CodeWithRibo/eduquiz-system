@@ -1,0 +1,186 @@
+@import url(https://db.onlinewebfonts.com/c/c99c1c85532dbaf7bc549b3d45836ee6?family=Ahkio+W00+Regular);
+body {
+  font-family: "Ahkio W00 Regular";
+  background-image: url(https://media.discordapp.net/attachments/1223234109283762271/1228161685211189349/423454788_1563842357763269_1625700207877083972_n.png?ex=6631a133&is=66304fb3&hm=8b82f191df142c882f17c05d756f266eb97cef81e1bf39aae90489c98636fe82&=&format=webp&quality=lossless&width=1093&height=683);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+/* IMAGE  */
+.ImageBrain img {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 7%;
+}
+/* LOGO */
+.logo {
+  position: absolute;
+  left: 6%;
+  top: 2px;
+}
+.logo img {
+  display: block;
+  width: 8rem;
+ 
+}
+.heading-2 h2 {
+  position: relative;
+  bottom: 5.5rem;
+  left: 7rem;
+  font-size: 35px;
+}
+/* HEADERS */
+.heading {
+  position: absolute;
+  bottom:10rem;
+  left: -1%;
+  width:500px;
+}
+.heading h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.heading h2 {
+  font-size: 18px;
+  margin-top: -5%;
+  font-family: "Ahkio-Regular", cursive;
+}
+/* SIGNUP */
+.heading a {
+  color: #2b4359;
+  margin-left: 10.5px;
+  font-family: "Ahkio-Regular", cursive;
+  opacity: 0.8;
+}
+.heading a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* CONTAINER FORM */
+ .ContainerForm  {
+  position: absolute;
+  left: 10%;
+  bottom: 45%;
+}
+/* EMAIL */
+email_address {
+  position: relative;
+}
+.email_address label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Ahkio-Regular", cursive;
+  position: absolute;
+  bottom: 4.5rem;
+}
+.email_address input {
+  width: 184%;
+  height: 2.2rem;
+ border: solid 1.5px black;
+  border-radius: 5px;
+  background-color: #d3eaff;
+  padding: 10px 0 0 10px;
+  font-family: "Ahkio-Regular", cursive;
+}
+.email_address input:hover {
+  border-color: rgb(12, 200, 224);
+}
+.email_address input:focus {
+  border-color:rgb(12, 200, 224); ;
+  outline:1.5px solid rgb(12, 200, 224); ; ;
+  }
+
+/* PASSWORD */
+.password label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  top: 5.8em;
+  font-family: "Ahkio-Regular", cursive;
+}
+/* PASSWORD  SHOW  */
+.showPass {
+  position: absolute;
+  right: 0;
+  left: 23rem;
+  top: 7.3rem;
+  font-size: 13px;
+  cursor: pointer;
+}
+#hide1 {
+  display: none;
+}
+/* Forgot password  */
+.password a {
+  position: absolute;
+  left: 16rem;
+  width: 7rem;
+  color: #2b4359;
+  font-size: 13px;
+  font-family: "Ahkio-Regular", cursive;
+}
+.password input {
+  font-family: "Ahkio-Regular", cursive;
+  background-color: #d3eaff;
+  width: 184%;
+  height: 2.2rem;
+ border: solid 1.5px black;
+  border-radius: 5px;
+  position: absolute;
+  top: 7.5em;
+  padding: 10px 0 0 10px;
+}
+.password input:hover {
+  border-color: rgb(12, 200, 224);
+}
+.password input:focus {
+border-color:rgb(12, 200, 224); ;
+outline:1.5px solid rgb(12, 200, 224); ; ;
+}
+
+
+/* remember */
+.remember input {
+  border: solid 1px black;
+  position: absolute;
+  top: 10rem;
+  cursor: pointer;
+}
+.remember label {
+  position: absolute;
+  top: 10rem;
+  left: 1.5rem;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+}
+/* SUBMIT LOGIN BUTTON */
+.btn-login button {
+  font-family: "Ahkio W00 Regular";
+  position: absolute;
+  left: 1%;
+  top: 13rem;
+  border: none;
+  background-color: #2b4359;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10.7rem;
+  padding-left: 10.5rem;
+  cursor: pointer;
+}
+
+.btn-login button:hover {
+  background-color: white;
+  color: #2b4359;
+  opacity: 0.8;
+}
